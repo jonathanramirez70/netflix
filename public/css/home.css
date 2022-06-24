@@ -1,0 +1,135 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #141414;
+}
+#logo-nav{
+	text-decoration: none;
+    vertical-align: middle;
+    fill: #e50914;
+    display: inline-block;
+	line-height: 75px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.svg-icon-netflix-logo{
+	height: 30px;
+    width: 100px;
+	vertical-align: middle;
+}
+nav{
+	display: inline-flex;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+nav .nav-list-container{
+	margin: 0px;
+	padding: 0px 20px;;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+nav .nav-list{
+	display: inline-flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+nav .nav-list a{
+	text-decoration: none;
+	color: #fff;
+	margin: auto 10px;
+}
+.avatar-container a{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.avatar{
+	width: 32px;
+	height: 32px;
+	border-radius: 2px;
+	margin-right: 10px;
+}
+.notifications{
+	position: relative;
+	top: -10px;
+	right: 10px;
+	background-color: red;
+	font-size: 0.5rem;
+	padding: 3px 5px;
+	border-radius: 50%;
+}
+section{
+	width: 100%;
+}
+.principal{
+	background-image: url('https://cdn.game.tv/game-tv-content/images_3/5e4f87ebd1f6b4d68ed772965b328a0b/Banners.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 85vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.principal-logo{
+	width: 150px;
+}
+.principal-item{
+	width: 30%;
+	margin-left: 100px;
+}
+.principal-item.item-left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.principal-item.item-left p{
+	color: #fff;
+	margin-top: 0px;
+	text-align: justify;
+}
+.buttons-container{
+	display: inline-flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.buttons-container button{
+	font-size: 1.1rem;
+	padding: 5px 20px;
+	border-radius: 2px;
+	border: none;
+}
+.buttons-container button i{
+	margin-right: 10px;
+}
+.btn-info{
+	background-color: #474545;
+	color: #fff;
+}
+a.sound-button{
+	color: #fff;
+	border: solid 1px #fff;
+	padding: 15px 17px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+}
